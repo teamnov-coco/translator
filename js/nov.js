@@ -240,7 +240,7 @@ const sendTran$ =  tranData => Observable.create(function(observer){
     // 	"msg": "[(cde==err ? 에러메시지스트링), (cde==ok) ? 결과값 스트링]"		//결과메시지
     // }
 
-    var url = `://api.teamnov.com:8090/${tranData.sourceLngCode}2${tranData.targetLngCode}?txt=${encodeURIComponent(tranData.msg)}`;
+    var url = `https://api.teamnov.com:8090/${tranData.sourceLngCode}2${tranData.targetLngCode}?txt=${encodeURIComponent(tranData.msg)}`;
     var source = new EventSource(url);
     source.onmessage = function(ev) {
         var object = JSON.parse(ev.data);
