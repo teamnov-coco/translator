@@ -1,0 +1,8 @@
+
+.nov-cancel:before { content: '\e800'; } /* '' */
+.nov-arrows-cw:before { content: '\e801'; } /* '' */
+.nov-down-open:before { content: '\e802'; } /* '' */
+.nov-user:before { content: '\e803'; } /* '' */
+.nov-right-big:before { content: '\e804'; } /* '' */
+.nov-spin3:before { content: '\e832'; } /* '' */
+.nov-history:before { content: '\f1da'; } /* '' */
